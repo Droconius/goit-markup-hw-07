@@ -76,12 +76,9 @@ HEADER
   justify-content: center;
 }
 
-.top-menu {
-  display: flex;
-  align-items: center;
-}
+/** LOGO **/
 
-.logo {
+.logoweb {
   color: var(--color-link);
   font-size: 26px;
   font-weight: 700;
@@ -90,46 +87,25 @@ HEADER
   margin-right: 90px;
 }
 
-.logo .logostudio {
+.logostudio {
   color: var(--color-000);
 }
 
-.header-lin-menu {
+/** NAVIGATION **/
+
+.navigation {
+  display: flex;
+  align-items: center;
+}
+
+.navigation__menu {
   display: flex;
   gap: 50px;
   padding: 0;
   margin: 0;
 }
 
-.header-linl-menu {
-  display: flex;
-  gap: 50px;
-  padding: 0;
-  margin-left: auto;
-  align-items: center;
-}
-
-.header-linl-menu-li {
-  color: var(--color-text);
-}
-
-.header-linl-svg-env {
-  width: 16px;
-  height: 12px;
-  padding: 0;
-  margin-right: 10px;
-  fill: currentColor;
-}
-
-.header-linl-svg-smart {
-  width: 10px;
-  height: 16px;
-  padding: 0;
-  margin-right: 10px;
-  fill: currentColor;
-}
-
-.header-link {
+.navigation__link {
   color: var(--color-title);
   font-size: 14px;
   font-weight: 500;
@@ -139,7 +115,7 @@ HEADER
   transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.header-link-active {
+.navigation__link-active {
   position: relative;
   color: var(--color-link);
   font-size: 14px;
@@ -149,7 +125,7 @@ HEADER
   padding: 32px 0;
 }
 
-.header-link-active::after {
+.navigation__link-active::after {
   content: "";
   position: absolute;
   bottom: 0;
@@ -160,12 +136,42 @@ HEADER
   border-radius: 2px;
 }
 
-.header-link:hover,
-.header-link:focus {
+.navigation__link:hover,
+.navigation__link:focus {
   color: var(--color-link);
 }
 
-.contacts-link {
+/** CONNECTION **/
+
+.connection__menu {
+  display: flex;
+  gap: 50px;
+  padding: 0;
+  margin-left: auto;
+  align-items: center;
+}
+
+.connection__list {
+  color: var(--color-text);
+}
+
+.connection__svg-env {
+  width: 16px;
+  height: 12px;
+  padding: 0;
+  margin-right: 10px;
+  fill: currentColor;
+}
+
+.connection__svg-smart {
+  width: 10px;
+  height: 16px;
+  padding: 0;
+  margin-right: 10px;
+  fill: currentColor;
+}
+
+.connection__link {
   display: flex;
   align-items: center;
   color: currentColor;
@@ -175,8 +181,8 @@ HEADER
   transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.contacts-link:hover,
-.contacts-link:focus {
+.connection__link:hover,
+.connection__link:focus {
   color: var(--color-link);
 }
 
