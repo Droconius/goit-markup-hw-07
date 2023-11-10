@@ -41,7 +41,7 @@
             </svg>
             info@devstudio.com</a>
         </li>
-        <li class="header-linl-menu-li">
+        <li class="connection__list">
           <a href="tel:+380961111111" class="connection__link">
             <svg class="connection__svg-smart">
               <use href="./images/symbol-defs.svg#smartphone"></use>
@@ -64,59 +64,59 @@
       </div>
 
       <!-- Modal window -->
-      <div class="backdrop is-hidden" data-backdrop>
+      <div class="modal__backdrop is-hidden" data-backdrop>
         <div class="modal is-hidden" data-modal>
-          <form class="modal-form">
-            <fieldset class="modal-form-group">
-              <legend class="modal-group-title">Залиште свої дані, ми вам передзвонимо</legend>
-              <label class="modal-form-label">
-                <input type="text" name="username" placeholder=" " class="modal-form-input">
-                <span class="modal-form-text">Ім'я</span>
-                <span class="modal-form-icon">
-                  <svg class="form-svg">
+          <form class="modal__form">
+            <fieldset class="modal__group">
+              <legend class="modal__title">Залиште свої дані, ми вам передзвонимо</legend>
+              <label class="modal__label">
+                <input type="text" name="username" placeholder=" " class="modal__input">
+                <span class="modal__text">Ім'я</span>
+                <span class="modal__icon">
+                  <svg class="modal__svg">
                     <use href="./images/symbol-defs.svg#name"></use>
                   </svg>
                 </span>
               </label>
-              <label class="modal-form-label">
-                <input type="text" name="phone" placeholder=" " class="modal-form-input">
-                <span class="modal-form-text">Телефон</span>
-                <span class="modal-form-icon">
-                  <svg class="form-svg">
+              <label class="modal__label">
+                <input type="text" name="phone" placeholder=" " class="modal__input">
+                <span class="modal__text">Телефон</span>
+                <span class="modal__icon">
+                  <svg class="modal__svg">
                     <use href="./images/symbol-defs.svg#phone"></use>
                   </svg>
                 </span>
               </label>
-              <label class="modal-form-label">
-                <input type="text" name="email" placeholder=" " class="modal-form-input">
-                <span class="modal-form-text">Пошта</span>
-                <span class="modal-form-icon">
-                  <svg class="form-svg">
+              <label class="modal__label">
+                <input type="text" name="email" placeholder=" " class="modal__input">
+                <span class="modal__text">Пошта</span>
+                <span class="modal__icon">
+                  <svg class="modal__svg">
                     <use href="./images/symbol-defs.svg#email"></use>
                   </svg>
                 </span>
               </label>
-              <label class="modal-form-label-comment">
-                <textarea name="feedback" placeholder="Введіть текст" class="modal-form-commets"></textarea>
-                <span class="modal-form-comment">Коментар</span>
+              <label class="modal__comments">
+                <textarea name="feedback" placeholder="Введіть текст" class="modal__commetsinput"></textarea>
+                <span class="modal__commentstext">Коментар</span>
               </label>
-              <label class="modal-form-checkbox">
-                <input type="checkbox" name="conditions" value="conditions" class="checkbox">
-                <span class="modal-form-checkbox-icon">
-                  <svg class="form-checkbox-svg">
+              <label class="modal__checkbox">
+                <input type="checkbox" name="conditions" value="conditions" class="modal__checkboxinput">
+                <span class="modal__checkboxicon">
+                  <svg class="modal__checkboxsvg">
                     <use href="./images/symbol-defs.svg#checkbox"></use>
                   </svg>
                 </span>
-                <span class="modal-form-checkbox-text">Погоджуюся з розсилкою та приймаю
-                  <a href="#" class="modal-form-checkbox-text-active">Умови договору</a></span>
+                <span class="modal__checkboxtext">Погоджуюся з розсилкою та приймаю
+                  <a href="#" class="modal__checkboxtext-active">Умови договору</a></span>
               </label>
             </fieldset>
-            <button type="submit" class="send">
+            <button type="submit" class="modal__send">
               Відправити
             </button>
           </form>
-          <button data-modal-close class="button-modal-close">
-            <svg class="close-svg">
+          <button data-modal-close class="modal__close">
+            <svg class="modal__closesvg">
               <use href="./images/symbol-defs.svg#close"></use>
             </svg>
           </button>
@@ -126,51 +126,51 @@
 
 
     <!-- What do we do -->
-    <section class=" section-whatdowedo">
+    <section class="section-whatdowedo">
 
       <div class="container whatdowedo">
-        <h2 class="visually-hidden">what-main</h2>
-        <ul class="what-main">
-          <li class="what-list">
-            <div class="icon">
-              <svg class="icon-svg">
+        <h2 class="visually-hidden">What do we do</h2>
+        <ul class="whatdowedo__menu">
+          <li class="whatdowedo__list">
+            <div class="whatdowedo__icon">
+              <svg class="whatdowedo__icon-svg">
                 <use href="./images/symbol-defs.svg#antenna"></use>
               </svg>
             </div>
-            <h3 class="what-title">Увага до деталей</h3>
-            <p class="what-text">Ідейні міркування, і навіть початок повсякденної роботи з формування позиції.
+            <h3 class="whatdowedo__title">Увага до деталей</h3>
+            <p class="whatdowedo__text">Ідейні міркування, і навіть початок повсякденної роботи з формування позиції.
             </p>
           </li>
 
-          <li class="what-list icon-clock">
-            <div class="icon">
-              <svg class="icon-svg">
+          <li class="whatdowedo__list icon-clock">
+            <div class="whatdowedo__icon">
+              <svg class="whatdowedo__icon-svg">
                 <use href="./images/symbol-defs.svg#clock"></use>
               </svg>
             </div>
-            <h3 class="what-title">Пунктуальність</h3>
-            <p class="what-text">Завдання організації, особливо рамки і місце навчання кадрів тягне у себе.
+            <h3 class="whatdowedo__title">Пунктуальність</h3>
+            <p class="whatdowedo__text">Завдання організації, особливо рамки і місце навчання кадрів тягне у себе.
             </p>
           </li>
 
-          <li class="what-list icon-diagram">
-            <div class="icon">
-              <svg class="icon-svg">
+          <li class="whatdowedo__list icon-diagram">
+            <div class="whatdowedo__icon">
+              <svg class="whatdowedo__icon-svg">
                 <use href="./images/symbol-defs.svg#diagram"></use>
               </svg>
             </div>
-            <h3 class="what-title">Планування</h3>
-            <p class="what-text">Так само консультація з широким активом значною мірою зумовлює.</p>
+            <h3 class="whatdowedo__title">Планування</h3>
+            <p class="whatdowedo__text">Так само консультація з широким активом значною мірою зумовлює.</p>
           </li>
 
-          <li class="what-list icon-astronavt">
-            <div class="icon">
-              <svg class="icon-svg">
+          <li class="whatdowedo__list icon-astronavt">
+            <div class="whatdowedo__icon">
+              <svg class="whatdowedo__icon-svg">
                 <use href="./images/symbol-defs.svg#astronaut"></use>
               </svg>
             </div>
-            <h3 class="what-title">Сучасні технології</h3>
-            <p class="what-text">Значимість цих проблем настільки очевидна, що реалізація планових завдань.
+            <h3 class="whatdowedo__title">Сучасні технології</h3>
+            <p class="whatdowedo__text">Значимість цих проблем настільки очевидна, що реалізація планових завдань.
             </p>
           </li>
         </ul>
@@ -180,24 +180,24 @@
 
 
     <!-- What do we do image-->
-    <section class="section-what-image">
+    <section class="section-whatimage">
 
       <div class="container what-image">
-        <h2 class="what-slogan" id="portfolio">Чим ми займаємося</h2>
-        <ul class="what-image-flex">
-          <li class="what-image-list">
-            <img src=" ./images/what1.jpg" alt="Комп'ютер" width="370">
-            <p class="what-image-text">Десктопні додатки</p>
+        <h2 class="whatimage__slogan" id="portfolio">Чим ми займаємося</h2>
+        <ul class="whatimage__menu">
+          <li class="whatimage__list">
+            <img src=" ./images/what1.jpg" alt="Комп'ютер" width="370" class="whatimage__image">
+            <p class="whatimage__text">Десктопні додатки</p>
           </li>
 
-          <li class="what-image-list">
-            <img src="./images/what2.jpg" alt="Телефон" width="370">
-            <p class="what-image-text">Мобільні додатки</p>
+          <li class="whatimage__list">
+            <img src="./images/what2.jpg" alt="Телефон" width="370" class="whatimage__image">
+            <p class="whatimage__text">Мобільні додатки</p>
           </li>
 
-          <li class="what-image-list">
-            <img src=" ./images/what3.jpg" alt="Планшет" width="370">
-            <p class="what-image-text">Дизайнерські рішення</p>
+          <li class="whatimage__list">
+            <img src=" ./images/what3.jpg" alt="Планшет" width="370" class="whatimage__image">
+            <p class="whatimage__text">Дизайнерські рішення</p>
           </li>
         </ul>
       </div>
