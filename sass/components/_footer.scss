@@ -1,0 +1,24 @@
+.footer {
+    background-color: $color-slogan;
+    padding: 60px 0;
+  }
+ 
+  .footer__container {
+    display: flex;
+    align-items: baseline;
+    justify-content: space-between;
+  }  
+  
+  .footer__logoweb {
+    color: $color-link;
+    font-size: 26px;
+    font-weight: 700;
+    line-height: 1.17;
+    font-family: "Raleway", sans-serif;
+    padding: 0;
+    margin: 0;
+  }
+  
+  .footer__logoweb .footer__logostudio {
+    color: $color-fff;
+  }
