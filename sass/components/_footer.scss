@@ -3,13 +3,13 @@
     padding: 60px 0;
   }
  
-  .footer__container {
+  &__container {
     display: flex;
     align-items: baseline;
     justify-content: space-between;
   }  
   
-  .footer__logoweb {
+  &__logoweb {
     color: $color-link;
     font-size: 26px;
     font-weight: 700;
@@ -19,6 +19,6 @@
     margin: 0;
   }
   
-  .footer__logoweb .footer__logostudio {
+  &__logoweb .footer__logostudio {
     color: $color-fff;
   }

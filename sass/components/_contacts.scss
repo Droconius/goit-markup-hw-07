@@ -4,15 +4,19 @@
     justify-content: space-between;
   }
   
-  .contacts__menu {
+  .contacts{
+    margin: 0;
+  }
+
+  &__menu {
     margin-top: 28px;
   }
   
-  .contacts__list {
+  &__list {
     margin-bottom: 12px;
   }
   
-  .contacts__link {
+  &__link {
     color: $color-fff;
     font-size: 14px;
     font-weight: 400;
@@ -22,12 +26,12 @@
     transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
   }
   
-  .contacts__link:hover,
-  .contacts__link:focus {
+  &__link:hover,
+  &__link:focus {
     color: $color-link;
   }
   
-  .contacts__link-dop {
+  &__link-dop {
     color: rgba(255, 255, 255, 0.6);
     font-size: 14px;
     font-weight: 400;
@@ -37,7 +41,7 @@
     transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
   }
   
-  .contacts__link-dop:hover,
-  .contacts__link-dop:focus {
+  &__link-dop:hover,
+  &__link-dop:focus {
     color: $color-link;
   }

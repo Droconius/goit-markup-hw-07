@@ -3,8 +3,12 @@
     flex-direction: column;
     margin-right: 0;
   }
-  
-  .subscribe__title {
+
+  .subscribe{
+    margin: 0;
+  }
+
+  &__title {
     color: $color-fff;
     font-size: 14px;
     font-weight: 700;
@@ -14,12 +18,12 @@
     margin-bottom: 20px;
   }
   
-  .subscribe__form {
+  &__form {
     display: flex;
     flex-direction: row;
   }
   
-  .subscribe__form input {
+  &__form input {
     width: 350px;
     border-radius: 4px;
     border: 1px solid rgba(255, 255, 255, 0.3);
@@ -29,7 +33,7 @@
     color: $color-fff;
   }
   
-  .subscribe__button {
+  &__button {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -50,7 +54,7 @@
     margin-left: 12px;
   }
   
-  .subscribe__svg {
+  &__svg {
     width: 24px;
     height: 24px;
     fill: currentColor;

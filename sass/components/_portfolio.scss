@@ -2,17 +2,22 @@
     padding: 94px 0;
     margin: 0;
   }
+
+  .portfolio {
+  margin: 0;
+  }
+  
   
   /** PORTFOLIO BUTTONS **/
   
-  .portfolio__button-menu {
+  &__button-menu {
     display: flex;
     gap: 8px;
     justify-content: center;
     margin-bottom: 50px;
   }
   
-  .portfolio__button {
+  &__button {
     border-radius: 4px;
     background: $buttons-portf;
     border: 0;
@@ -29,8 +34,8 @@
       box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1);
   }
   
-  .portfolio__button:hover,
-  .portfolio__button:focus {
+  &__button:hover,
+  &__button:focus {
     background-color: $color-link;
     color: $color-fff;
     box-shadow: 0px 2px 2px 0px rgba(0, 0, 0, 0.12),
@@ -39,25 +44,25 @@
   
   /** PORTFOLIO CARDS **/
   
-  .portfolio__menu {
+  &__menu {
     display: flex;
     flex-wrap: wrap;
     gap: 30px;
   }
   
-  .portfolio__card {
+  &__card {
     display: block;
     width: 370px;
     background: $color-fff;
     transition: box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1);
   }
   
-  .portfolio__image {
+  &__image {
     position: relative;
     overflow: hidden;
   }
   
-  .portfolio__overlay {
+  &__overlay {
     position: absolute;
     bottom: 0;
     display: flex;
@@ -71,7 +76,7 @@
     transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
   }
   
-  .portfolio__overlay-text {
+  &__overlay-text {
     color: $color-fff;
     font-family: Roboto;
     font-size: 18px;
@@ -80,13 +85,13 @@
     letter-spacing: 0.54px;
   }
   
-  .portfolio__back {
+  &__back {
     padding: 20px 24px;
     border: 1px solid $card-portf;
     border-top: 0;
   }
   
-  .portfolio__title {
+  &__title {
     color: $color-title;
     font-size: 18px;
     font-weight: 700;
@@ -95,7 +100,7 @@
     margin-bottom: 4px;
   }
   
-  .portfolio__text {
+  &__text {
     color: $color-text;
     font-size: 16px;
     font-weight: 400;
@@ -103,14 +108,14 @@
     letter-spacing: 0.48px;
   }
   
-  .portfolio__card:hover,
-  .portfolio__card:focus {
+  &__card:hover,
+  &__card:focus {
     box-shadow: 1px 4px 6px 0px rgba(0, 0, 0, 0.16),
       0px 4px 4px 0px rgba(0, 0, 0, 0.06), 0px 1px 1px 0px rgba(0, 0, 0, 0.12);
   }
   
-  .portfolio__card:hover .portfolio__overlay,
-  .portfolio__card:focus .portfolio__overlay {
+  &__card:hover &__overlay,
+  &__card:focus &__overlay {
     transform: translateY(0);
     box-shadow: 1px 4px 6px 0px rgba(0, 0, 0, 0.16),
       0px 4px 4px 0px rgba(0, 0, 0, 0.06), 0px 1px 1px 0px rgba(0, 0, 0, 0.12);

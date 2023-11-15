@@ -2,8 +2,12 @@
     padding-bottom: 94px;
     background-color: $color-fff;
   }
+
+  .whatimage{
+margin: 0;
+  }
   
-  .whatimage__slogan {
+  &__slogan {
     color: $color-title;
     text-align: center;
     font-size: 36px;
@@ -12,19 +16,19 @@
     margin-bottom: 50px;
   }
   
-  .whatimage__menu {
+  &__menu {
     display: flex;
     align-items: center;
     gap: 30px;
     justify-content: center;
   }
   
-  .whatimage__list {
+  &__list {
     position: relative;
     z-index: auto;
   }
   
-  .whatimage__text {
+  &__text {
     position: absolute;
     bottom: 0;
     width: 100%;
