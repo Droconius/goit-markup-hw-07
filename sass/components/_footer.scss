@@ -1,14 +1,7 @@
 .footer {
     background-color: $color-slogan;
     padding: 60px 0;
-  }
- 
-  &__container {
-    display: flex;
-    align-items: baseline;
-    justify-content: space-between;
-  }  
-  
+
   &__logoweb {
     color: $color-link;
     font-size: 26px;
@@ -22,3 +15,30 @@
   &__logoweb .footer__logostudio {
     color: $color-fff;
   }
+}
+
+@media screen and (max-width: 480px) {
+  .footer__container {
+    display: block;
+  }
+}
+
+@media screen and (min-width: 481px) and (max-width: 767px) {
+  .footer__container {
+    display: none;
+  }
+}
+
+@media screen and (min-width: 768px)  {
+  .footer__container {
+    display: block;
+  }
+}
+
+@media screen and (min-width: 1600px)  {
+  .footer__container {
+    display: flex;
+    align-items: baseline;
+    justify-content: space-between;
+  }
+}

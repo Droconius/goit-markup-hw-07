@@ -1,12 +1,5 @@
-.footer__container {
-    display: flex;
-    align-items: baseline;
-    justify-content: space-between;
-  }
-  
   .contacts{
     margin: 0;
-  }
 
   &__menu {
     margin-top: 28px;
@@ -45,3 +38,5 @@
   &__link-dop:focus {
     color: $color-link;
   }
+
+}

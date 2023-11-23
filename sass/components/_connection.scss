@@ -1,6 +1,5 @@
 .connection{
   margin: 0;
-}
 
 &__menu {
     display: flex;
@@ -44,3 +43,5 @@
   &__link:focus {
     color: $color-link;
   }
+  
+}

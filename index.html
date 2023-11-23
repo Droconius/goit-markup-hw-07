@@ -17,6 +17,7 @@
 </head>
 
 <body>
+
   <!-- Header -->
   <header class="header">
 
@@ -59,7 +60,7 @@
     <!-- Slogan -->
     <section class="section-slogan">
       <div class="container slogan">
-        <h1 class="slogan-text">Ефективні рішення для вашого бізнесу</h1>
+        <h1 class="slogan__text">Ефективні рішення для вашого бізнесу</h1>
         <button type="button" class="order" data-modal-open>Замовити послугу</button>
       </div>
 
@@ -70,7 +71,7 @@
             <fieldset class="modal__group">
               <legend class="modal__title">Залиште свої дані, ми вам передзвонимо</legend>
               <label class="modal__label">
-                <input type="text" name="username" placeholder=" " class="modal__input">
+                <input type="text" name="username" placeholder=" " class="modal__input" autocomplete="on">
                 <span class="modal__text">Ім'я</span>
                 <span class="modal__icon">
                   <svg class="modal__svg">
@@ -79,8 +80,8 @@
                 </span>
               </label>
               <label class="modal__label">
-                <input type="text" name="phone" placeholder=" " class="modal__input">
-                <span class="modal__text">Телефон</span>
+                <input type="text" name="phone" placeholder=" " class="modal__input" autocomplete="on">
+                <span class="modal__text">Телефон</span> 
                 <span class="modal__icon">
                   <svg class="modal__svg">
                     <use href="./images/symbol-defs.svg#phone"></use>
@@ -88,7 +89,7 @@
                 </span>
               </label>
               <label class="modal__label">
-                <input type="text" name="email" placeholder=" " class="modal__input">
+                <input type="text" name="email" placeholder=" " class="modal__input" autocomplete="on">
                 <span class="modal__text">Пошта</span>
                 <span class="modal__icon">
                   <svg class="modal__svg">
@@ -97,7 +98,7 @@
                 </span>
               </label>
               <label class="modal__comments">
-                <textarea name="feedback" placeholder="Введіть текст" class="modal__commetsinput"></textarea>
+                <textarea name="feedback" placeholder="Введіть текст" class="modal__commetsinput" autocomplete="on"></textarea>
                 <span class="modal__commentstext">Коментар</span>
               </label>
               <label class="modal__checkbox">
@@ -477,8 +478,8 @@
       <!-- Subscribe forms -->
       <div class="footer__subscribe">
         <p class="subscribe__title">Підпишіться на розсилку</p>
-        <form name="subscribe__form" autocomplete="on" novalidate class="subscribe__form">
-          <input type="email" name="email" placeholder="E-mail">
+        <form name="subscribe__form" novalidate class="subscribe__form">
+          <input type="email" name="email" placeholder="E-mail"  autocomplete="on">
           <button type="submit" class="subscribe__button">
             Підписатися
             <svg class="subscribe__svg">
